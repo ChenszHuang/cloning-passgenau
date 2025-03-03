@@ -267,19 +267,18 @@ header .tombol a:hover {
 }
 
 #company-list {
-  border: 1px solid black;
   width: 100%;
   height: 350px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: space-around;
+  align-content: space-evenly;
   margin-bottom: 80px;
 }
 
 #company-list .logo-item {
   height: 150px;
-  width: 400px;
+  width: 33%;
   border: 1px solid black;
   justify-content: center;
   display: flex;
