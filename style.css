@@ -287,3 +287,8 @@ header .tombol a:hover {
 #company-list .first-logo {
   align-items: center;
 }
+
+/* responsive */
+@media screen{
+  max-width{ 100px};
+}
