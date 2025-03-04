@@ -349,6 +349,7 @@ header .tombol a:hover {
 .slide {
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .slide ul {
@@ -372,4 +373,82 @@ header .tombol a:hover {
 
 .slide ul li a:hover {
   background-color: lightskyblue;
+}
+
+#contact-us {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact-head {
+  width: 600px;
+  margin: auto;
+}
+
+.contact-head h3 {
+  font: 50px "poppins";
+  margin-bottom: 25px;
+}
+
+.contact-head p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  /* text-align: left; */
+  width: 600px;
+  line-height: 30px;
+}
+
+#contact-form {
+  margin-bottom: 50px;
+}
+
+.form-container {
+  display: flex;
+  margin: auto;
+  width: 800px;
+
+  height: 400px;
+  border: 1px solid black;
+  justify-content: space-between;
+}
+
+.contact-info {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icon-contact {
+  /* border: 1px solid red; */
+  width: 250px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-contact img {
+  width: 50px;
+  margin: 5px;
+}
+
+.icon-contact span {
+  font: 18px "poppins";
+  margin: 5px;
+}
+.form {
+  background-color: red;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 16px "poppins";
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
 }
