@@ -572,6 +572,7 @@ form textarea {
   color: black;
   text-decoration: none;
   margin-bottom: 5px;
+  align-items: center;
 }
 .card-content img {
   width: 50%;
@@ -581,7 +582,6 @@ p.hastag {
   color: darkblue;
 }
 .card-desc {
-  padding-top: 20px;
   text-align: left;
   width: 45%;
 }
@@ -592,5 +592,30 @@ p.hastag {
 }
 
 .card-desc .caption {
-  font: bold 18px "poppins";
+  font: bold 16px "poppins";
+}
+
+.call-btn {
+  margin: 50px auto;
+  width: 200px;
+  cursor: pointer;
+  padding: 15px;
+  border: 0;
+  background-color: rgb(75, 144, 240);
+  border-radius: 7px;
+}
+
+.call-btn a {
+  color: white;
+  width: 100%;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 150px;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: space-evenly;
 }
