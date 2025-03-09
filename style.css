@@ -185,11 +185,12 @@ header {
   background-color: white;
   display: flex;
   justify-content: center;
+  align-items: stretch;
 }
 
 header .web-desc {
   width: 40%;
-  height: auto;
+  height: 100%;
   /* border: 1px solid black; */
   /* background-color: blue; */
   padding-right: 5px;
@@ -197,16 +198,16 @@ header .web-desc {
 }
 
 header .web-gif {
-  /* border: 1px solid black; */
   width: 60%;
   height: 500px;
-  margin-left: 80px;
-  margin-top: -50px;
+  /* padding-left: 80px; */
+  display: flex;
+  justify-content: flex-end;
 }
 
 header .web-gif img {
-  z-index: -1;
-  width: 110%;
+  margin-left: 30px;
+  height: 100%;
 }
 
 header h1 {
@@ -406,27 +407,27 @@ header .tombol a:hover {
   display: flex;
   margin: auto;
   width: 800px;
-
-  height: 400px;
-  border: 1px solid black;
+  height: 500px;
+  /* border: 1px solid black; */
   justify-content: space-between;
 }
 
 .contact-info {
-  width: 40%;
+  width: 50%;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  /* border: 1px  solid red; */
 }
 
 .icon-contact {
   /* border: 1px solid red; */
-  width: 250px;
+  width: 300px;
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .icon-contact img {
@@ -439,16 +440,63 @@ header .tombol a:hover {
   margin: 5px;
 }
 .form {
-  background-color: red;
-  width: 60%;
+  width: 45%;
+
+  font: 16px "poppins";
+  display: flex;
+  padding: 10px 30px;
+}
+.agreement {
   display: flex;
   justify-content: center;
-  align-items: center;
-  font: 16px "poppins";
+}
+.agreement label {
+  font: 14px poppins;
+  width: 70%;
+}
+
+.agreement a {
+  color: rgb(75, 144, 240);
+}
+.check-box {
+  margin-right: 20px;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  justify-content: space-around;
+}
+
+form .input-1 {
+  height: 30px;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+form textarea {
+  height: 80px;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.submit-btn {
+  margin: 0px auto;
+  width: 90%;
+  cursor: pointer;
+  padding: 10px;
+  border: 0;
+  background-color: rgb(75, 144, 240);
+}
+
+.submit-btn a {
+  color: white;
+  width: 100%;
+  text-decoration: none;
+}
+
+.submit-btn:hover a {
+  text-decoration: underline;
 }
