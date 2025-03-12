@@ -618,4 +618,67 @@ footer {
 .sidebar {
   display: flex;
   justify-content: space-evenly;
+  /* border: 1px solid black; */
+  padding-left: 10px;
+  margin: 0px 30px;
+}
+
+.sidebar > div {
+  width: 18%;
+  /* border: 1px solid orange; */
+}
+
+.sidebar h4 {
+  padding: 20px;
+  font: bold 14px "poppins";
+}
+.sidebar ul li {
+  padding: 5px 20px;
+  line-height: 25px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+#footer-end .logo img {
+  width: 70%;
+}
+.copy {
+  /* border: 1px solid red; */
+  text-align: center;
+  line-height: 20px;
+  font: 14px "poppins";
+}
+
+.copy p:first-child {
+  font-weight: bold;
+}
+
+#footer-end {
+  margin: 80px 30px 20px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+#footer-end > div {
+  width: 30%;
+}
+
+#footer-end .logo-linkedin {
+  /* border: 1px solid brown; */
+  text-align: right;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+#footer-end .logo-linkedin img {
+  width: 35px;
+}
+
+#footer-end .copy span a {
+  text-decoration: none;
+  padding: 5px;
+  color: darkblue;
 }
